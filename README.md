@@ -13,3 +13,25 @@ Goals:
 Earn the HTB COAE certification
 Build practical skills in LLM security and adversarial AI
 Develop a personal toolkit for AI red teaming engagements
+
+Repository Structure
+
+├── README.md                   
+├── log.md                                    
+├── notes/
+│   ├── concepts/               
+│   │   ├── llm-architecture.md
+│   │   ├── threat-modeling-ai.md
+│   │   └── owasp-llm-top10.md
+│   └── techniques/             
+│       ├── prompt-injection.md
+│       ├── jailbreaking.md
+│       ├── model-extraction.md
+│       └── adversarial-inputs.md
+│
+├── writeups/
+│   ├── htb-challenges/         
+│   └── labs/                   
+│
+└── tools/                      
+    └── README.md               
