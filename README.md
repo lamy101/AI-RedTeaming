@@ -16,22 +16,25 @@ Develop a personal toolkit for AI red teaming engagements
 
 Repository Structure
 
-├── README.md                   
-├── log.md                                    
+.
+├── README.md                   # This file — progress hub
+├── log.md                      # Dated learning journal
+├── resources.md                # Books, papers, tools, links
+│
 ├── notes/
-│   ├── concepts/               
+│   ├── concepts/               # Theory & background knowledge
 │   │   ├── llm-architecture.md
 │   │   ├── threat-modeling-ai.md
 │   │   └── owasp-llm-top10.md
-│   └── techniques/             
+│   └── techniques/             # Attack technique breakdowns
 │       ├── prompt-injection.md
 │       ├── jailbreaking.md
 │       ├── model-extraction.md
 │       └── adversarial-inputs.md
 │
 ├── writeups/
-│   ├── htb-challenges/         
-│   └── labs/                   
+│   ├── htb-challenges/         # Per-challenge writeups (retired only)
+│   └── labs/                   # Lab exercise notes & solutions
 │
-└── tools/                      
-    └── README.md               
+└── tools/                      # Custom scripts & tooling
+    └── README.md               # Tool index & usage notes              
